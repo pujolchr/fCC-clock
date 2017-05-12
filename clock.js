@@ -19,8 +19,8 @@ const styleString =
 
 const message = 'End of times!';
 
-const startTimeLeft = 1;
-const startTimeRight = 1;
+const startTimeLeft = 25;
+const startTimeRight = 5;
 
 const colors = {
   left: '#5bc0de',

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.3.12">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>naga.no | fCC | Pomodoro Clock</title>
+  <link rel="stylesheet" href="clock.css">
+</head>
+
+<body>
+  <div id="filling" class="rounded  grey">
+    <div class="flex">
+
+      <div id="tab-left" class="cyan rounded">
+        <div class="flex">
+          <button onclick="add('left',1)">+</button>
+          <div id="left-time" class="display">
+            1
+          </div>
+          <button onclick="add('left', -1)">-</button>
+        </div>
+      </div>
+
+      <div id="tab-central">
+        <div id="display" class="blue rounded hand display ">
+          <div id="timer" class="padded">00:25:00</div>
+          <p><small id="action">Start</small></p>
+        </div>
+      </div>
+
+      <div id="tab-right" class="green rounded">
+        <div class="flex">
+          <button onclick="add('right',1)">+</button>
+          <div id="right-time" class="display">
+            1
+          </div>
+          <button onclick="add('right', -1)">-</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer>
+    <small>
+    by
+    <a class="rounded" href="https://no.linkedin.com/in/christianpujol" target="_blank">
+      Christian Pujol 
+    </a>
+     for <a href="https://freecodecamp.com">freeCodeCamp</a>.</br>
+     You will find the source code on
+     <a  href="https://github.com/pujolchr/fCC-clock" target="_blank">
+       GitHub</a>
+    </small>
+  </footer>
+
+  <script src="clock.js">
+  </script>
+</body>
+
+</html>
